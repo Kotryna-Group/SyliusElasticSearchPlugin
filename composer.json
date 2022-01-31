@@ -15,7 +15,7 @@
         "php": "^7.4",
         "sylius/sylius": "^1.10",
         "ongr/elasticsearch-bundle": "^6.1.1",
-        "simple-bus/symfony-bridge": "^4.1",
+        "simple-bus/symfony-bridge": "^5.4",
         "ongr/filter-manager-bundle": "^6.1",
         "ramsey/uuid": "^3.9"
     },
