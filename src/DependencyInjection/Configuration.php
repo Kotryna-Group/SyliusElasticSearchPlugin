@@ -41,8 +41,8 @@ final class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('sylius_elastic_search');
+        $treeBuilder = new TreeBuilder('sylius_elastic_search');
+        $rootNode = $treeBuilder->getRootNode();
 
         $this->buildAttributeWhitelistNode($rootNode);
         $this->buildDocumentClassesNode($rootNode);
