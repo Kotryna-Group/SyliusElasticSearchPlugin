@@ -2,7 +2,7 @@
     "name": "sylius/elastic-search-plugin",
     "type": "sylius-bundle",
     "description": "Elastic search integration for Sylius.",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "license": "MIT",
     "authors": [
         {
@@ -14,9 +14,9 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "sylius/sylius": "^1.13 || ^1.14",
-        "ongr/elasticsearch-bundle": "7.0.7",
+        "ongr/elasticsearch-bundle": "^8.0",
         "simple-bus/symfony-bridge": "^6.0",
-        "ongr/filter-manager-bundle": "8.0.2",
+        "ongr/filter-manager-bundle": "^8.0",
         "ramsey/uuid": "^4.0",
         "psr/log": "^1.1 || ^2.0",
         "monolog/monolog": "^2.0 || ^2.35"
@@ -51,7 +51,7 @@
         },
         {
             "type": "github",
-            "url": "https://github.com/mantasnfq/ElasticsearchBundle.git",
+            "url": "https://github.com/Kotryna-Group/ElasticsearchBundle.git",
             "canonical": true
         }
     ]
